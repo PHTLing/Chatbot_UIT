@@ -1,0 +1,33 @@
+# --- Python / Environment ---
+.env
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- Data & ML (Cực kỳ quan trọng cho dự án RAG của bạn) ---
+data_raw/
+data_preproc/
+data_csv/
+evaluate/
+data_preprocessing/uit_dataset_v2.json
+data_preprocessing/uit_dataset.json
+data_preprocessing/convert.py
+# Loại bỏ các folder index của FAISS vì chúng rất nặng
+uit_faiss_index/
+v2_uit_faiss_index/
+*.faiss
+*.pkl
+
+# --- Editor / OS ---
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
